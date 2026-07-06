@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "cta": "Ordenar Ahora"
+  },
+  "footer": {
+    "navigate": "Navegar",
+    "findUs": "Encuéntranos",
+    "copyright": "© {year} {brand}. Todos los derechos reservados.",
+    "madeWith": "Hecho con amor en Brooklyn."
+  },
+  "hero": {
+    "eyebrow": "Café Artesanal, Brooklyn",
+    "title": "Donde Cada Taza Cuenta una Historia",
+    "subtitle": "Granos cuidadosamente seleccionados, expertos tostados y preparados al momento. Ven como eres, quédate todo lo que quieras.",
+    "cta": "Explora Nuestro Menú",
+    "secondary": "Conoce Nuestra Historia"
+  },
+  "menu": {
+    "title": "Nuestro Menú",
+    "subtitle": "Ingredientes de temporada, recetas atemporales. Todo hecho fresco, cada mañana.",
+    "drinks": "Bebidas",
+    "food": "Comida",
+    "badge": {
+      "popular": "Popular",
+      "new": "Nuevo",
+      "seasonal": "De Temporada"
+    },
+    "label": "Menú"
+  },
+  "about": {
+    "eyebrow": "Nuestra Historia",
+    "title": "Enraizados en la Comunidad, Impulsados por la Artesanía",
+    "body1": "Brewed and Co. comenzó como un pequeño carrito en la esquina en 2018, nacido de una creencia simple: el buen café debe ser accesible, sin prisa y compartido. Obtenemos nuestros granos directamente de granjas familiares en Etiopía, Colombia y Guatemala.",
+    "body2": "Cada taza es una colaboración entre el agricultor que la cultivó, el tostador que la moldeó y el barista que la hizo realidad. Nos enorgullece ser el tercer lugar de tu vecindario.",
+    "stat1Value": "6+",
+    "stat1Label": "Años en Brooklyn",
+    "stat2Value": "12",
+    "stat2Label": "Granjas de Origen",
+    "stat3Value": "300+",
+    "stat3Label": "Clientes Regulares Diarios",
+    "body": "Tostamos pequeños lotes de granos obtenidos éticamente y preparamos cada taza con cuidado. Nuestro espacio acogedor es perfecto para trabajar, reuniones o simplemente un momento de paz.",
+    "label": "Acerca de Nosotros"
+  },
+  "contact": {
+    "eyebrow": "Visítanos",
+    "title": "Ven a Saludarnos",
+    "address": "42 Maple Street, Brooklyn, NY 11201",
+    "hours": "Lun–Vie 7am–7pm · Sáb–Dom 8am–6pm",
+    "email": "hello@brewedandco.com",
+    "cta": "Obtener Direcciones",
+    "body": "Visítanos en 427 Oak Street o comunícate con nosotros en cualquier momento. Estamos abiertos de 7am a 6pm todos los días.",
+    "label": "Ponte en Contacto"
+  },
+  "cta": {
+    "body": "Ordena con anticipación y evita la fila.",
+    "button": "Ordenar Ahora",
+    "title": "Tu café favorito, listo cuando lo necesites"
+  },
+  "reviews": {
+    "label": "Lo Que Dicen Nuestros Clientes",
+    "title": "Amado por nuestra comunidad"
+  }
+}
