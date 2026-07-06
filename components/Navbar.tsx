@@ -6,10 +6,8 @@ import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from 'lucide-react';
 import { navLinks, navCTA, brandName } from "@/lib/data";
-import { useTranslations } from "next-intl";
 
 export default function Navbar() {
-  const t = useTranslations();
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -67,7 +65,7 @@ export default function Navbar() {
               onClick={(e) => handleAnchorClick(e, link.href)}
               className="text-sm font-medium text-[#2C1A0E]/70 hover:text-[#C8860A] transition-colors duration-200 relative group"
             >
-              {t(`nav.${link.label.toLowerCase()}`)}
+              {link.label}
               <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-[#C8860A] group-hover:w-full transition-all duration-300" />
             </Link>
           ))}
@@ -80,7 +78,7 @@ export default function Navbar() {
             onClick={(e) => handleAnchorClick(e, navCTA.href)}
             className="inline-flex items-center px-5 py-2 rounded-full bg-[#C8860A] text-white text-sm font-semibold hover:bg-[#A86E08] transition-all duration-200 shadow-[0_2px_8px_rgba(200,134,10,0.35)] hover:shadow-[0_4px_16px_rgba(200,134,10,0.45)] hover:-translate-y-0.5"
           >
-            {t("nav.cta")}
+            {navCTA.label}
           </Link>
         </div>
 
@@ -110,18 +108,20 @@ export default function Navbar() {
                   key={link.href}
                   href={getLinkHref(link.href)}
                   onClick={(e) => handleAnchorClick(e, link.href)}
-                  className="py-2.5 px-3 rounded-lg text-sm font-medium text-[#2C1A0E]/80 hover:text-[#C8860A] hover:bg-[#C8860A]/5 transition-all duration-200"
+                  className="py-2.5 text-sm font-medium text-[#2C1A0E]/70 hover:text-[#C8860A] transition-colors duration-200"
                 >
-                  {t(`nav.${link.label.toLowerCase()}`)}
+                  {link.label}
                 </Link>
               ))}
-              <Link
-                href={getLinkHref(navCTA.href)}
-                onClick={(e) => handleAnchorClick(e, navCTA.href)}
-                className="mt-2 py-2.5 px-3 rounded-full bg-[#C8860A] text-white text-sm font-semibold text-center hover:bg-[#A86E08] transition-colors"
-              >
-                {t("nav.cta")}
-              </Link>
+              <div className="pt-3 pb-1">
+                <Link
+                  href={getLinkHref(navCTA.href)}
+                  onClick={(e) => handleAnchorClick(e, navCTA.href)}
+                  className="inline-flex items-center px-5 py-2 rounded-full bg-[#C8860A] text-white text-sm font-semibold hover:bg-[#A86E08] transition-all duration-200"
+                >
+                  {navCTA.label}
+                </Link>
+              </div>
             </div>
           </motion.div>
         )}

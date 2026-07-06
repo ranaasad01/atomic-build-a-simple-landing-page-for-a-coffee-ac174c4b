@@ -4,7 +4,11 @@
     "menu": "Menu",
     "about": "About",
     "contact": "Contact",
-    "cta": "Order Now"
+    "cta": "Order Now",
+    "order": "Order Online",
+    "catering": "Catering",
+    "blog": "Blog",
+    "loyalty": "Loyalty"
   },
   "footer": {
     "navigate": "Navigate",
@@ -49,10 +53,10 @@
     "eyebrow": "Visit Us",
     "title": "Come Say Hello",
     "address": "42 Maple Street, Brooklyn, NY 11201",
-    "hours": "Mon–Fri 7am–7pm · Sat–Sun 8am–6pm",
+    "hours": "Mon\u2013Fri 7am\u20137pm \u00b7 Sat\u2013Sun 8am\u20136pm",
     "email": "hello@brewedandco.com",
     "cta": "Get Directions",
-    "body": "Visit us at 427 Oak Street or reach out anytime. We're open 7am–6pm daily.",
+    "body": "Visit us at 427 Oak Street or reach out anytime. We're open 7am\u20136pm daily.",
     "label": "Get in Touch"
   },
   "cta": {

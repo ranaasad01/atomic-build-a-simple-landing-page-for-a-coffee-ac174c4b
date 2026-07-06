@@ -77,7 +77,7 @@ export default function Footer() {
                   onClick={(e) => handleAnchorClick(e, link.href)}
                   className="text-sm text-[#F5E6D3]/60 hover:text-[#F5E6D3] transition-colors duration-200"
                 >
-                  {t(`nav.${link.label.toLowerCase()}`)}
+                  {link.label}
                 </Link>
               </li>
             ))}
@@ -111,12 +111,15 @@ export default function Footer() {
         </motion.div>
       </motion.div>
 
+      {/* Bottom bar */}
       <div className="border-t border-[#F5E6D3]/10">
         <div className="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-xs text-[#F5E6D3]/40">
-            {t("footer.copyright", { year: "2024", brand: brandName })}
+            © {new Date().getFullYear()} {brandName}. All rights reserved.
           </p>
-          <p className="text-xs text-[#F5E6D3]/30">{t("footer.madeWith")}</p>
+          <p className="text-xs text-[#F5E6D3]/40">
+            Made with love in Brooklyn.
+          </p>
         </div>
       </div>
     </footer>
